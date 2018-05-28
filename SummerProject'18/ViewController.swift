@@ -7,11 +7,24 @@
 //
 
 import UIKit
+import Lottie
 
 class ViewController: UIViewController {
 
+    let animationView = LOTAnimationView(name:"gdTrainSummer2")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        animationView.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width , height: 667)
+        animationView.contentMode = .scaleAspectFill
+        
+        animationView.loopAnimation = true
+        
+        self.view.addSubview(animationView)
+        
+        animationView.play()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

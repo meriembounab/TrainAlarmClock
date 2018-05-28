@@ -14,6 +14,10 @@
 		91DAF6E020BBD25E004AB6BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91DAF6DE20BBD25E004AB6BB /* LaunchScreen.storyboard */; };
 		91DAF6EB20BBD25E004AB6BB /* SummerProject_18Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DAF6EA20BBD25E004AB6BB /* SummerProject_18Tests.swift */; };
 		91DAF6F620BBD25E004AB6BB /* SummerProject_18UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DAF6F520BBD25E004AB6BB /* SummerProject_18UITests.swift */; };
+		91DAF70820BBD4DE004AB6BB /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DAF70720BBD4DE004AB6BB /* Lottie.framework */; };
+		91DAF70920BBD4DE004AB6BB /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91DAF70720BBD4DE004AB6BB /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		91DAF70C20BBD73E004AB6BB /* gdTrainSummer.json in Resources */ = {isa = PBXBuildFile; fileRef = 91DAF70B20BBD73E004AB6BB /* gdTrainSummer.json */; };
+		91DAF70F20BBDB45004AB6BB /* gdTrainSummer2.json in Resources */ = {isa = PBXBuildFile; fileRef = 91DAF70E20BBDB44004AB6BB /* gdTrainSummer2.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		91DAF70A20BBD4DE004AB6BB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				91DAF70920BBD4DE004AB6BB /* Lottie.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		91DAF6D220BBD25C004AB6BB /* SummerProject'18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SummerProject'18.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DAF6D520BBD25C004AB6BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +65,11 @@
 		91DAF6F120BBD25E004AB6BB /* SummerProject'18UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SummerProject'18UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DAF6F520BBD25E004AB6BB /* SummerProject_18UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerProject_18UITests.swift; sourceTree = "<group>"; };
 		91DAF6F720BBD25E004AB6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91DAF70320BBD30D004AB6BB /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = ../../demoLogo/demo/Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
+		91DAF70720BBD4DE004AB6BB /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
+		91DAF70B20BBD73E004AB6BB /* gdTrainSummer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = gdTrainSummer.json; path = ../gdTrainSummer.json; sourceTree = "<group>"; };
+		91DAF70D20BBD744004AB6BB /* gdTrainSummer.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gdTrainSummer.json; sourceTree = "<group>"; };
+		91DAF70E20BBDB44004AB6BB /* gdTrainSummer2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = gdTrainSummer2.json; path = ../../../gdTrainSummer2.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91DAF70820BBD4DE004AB6BB /* Lottie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +101,10 @@
 		91DAF6C920BBD25C004AB6BB = {
 			isa = PBXGroup;
 			children = (
+				91DAF70B20BBD73E004AB6BB /* gdTrainSummer.json */,
+				91DAF70E20BBDB44004AB6BB /* gdTrainSummer2.json */,
+				91DAF70320BBD30D004AB6BB /* Lottie.framework */,
+				91DAF70720BBD4DE004AB6BB /* Lottie.framework */,
 				91DAF6D420BBD25C004AB6BB /* SummerProject'18 */,
 				91DAF6E920BBD25E004AB6BB /* SummerProject'18Tests */,
 				91DAF6F420BBD25E004AB6BB /* SummerProject'18UITests */,
@@ -97,6 +125,7 @@
 		91DAF6D420BBD25C004AB6BB /* SummerProject'18 */ = {
 			isa = PBXGroup;
 			children = (
+				91DAF70D20BBD744004AB6BB /* gdTrainSummer.json */,
 				91DAF6D520BBD25C004AB6BB /* AppDelegate.swift */,
 				91DAF6D720BBD25C004AB6BB /* ViewController.swift */,
 				91DAF6D920BBD25C004AB6BB /* Main.storyboard */,
@@ -135,6 +164,7 @@
 				91DAF6CE20BBD25C004AB6BB /* Sources */,
 				91DAF6CF20BBD25C004AB6BB /* Frameworks */,
 				91DAF6D020BBD25C004AB6BB /* Resources */,
+				91DAF70A20BBD4DE004AB6BB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,9 +259,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91DAF70C20BBD73E004AB6BB /* gdTrainSummer.json in Resources */,
 				91DAF6E020BBD25E004AB6BB /* LaunchScreen.storyboard in Resources */,
 				91DAF6DD20BBD25E004AB6BB /* Assets.xcassets in Resources */,
 				91DAF6DB20BBD25C004AB6BB /* Main.storyboard in Resources */,
+				91DAF70F20BBDB45004AB6BB /* gdTrainSummer2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +464,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 79MA6EUER8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "SummerProject'18/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +486,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 79MA6EUER8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "SummerProject'18/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
