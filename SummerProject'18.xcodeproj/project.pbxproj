@@ -17,7 +17,6 @@
 		91DAF70820BBD4DE004AB6BB /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DAF70720BBD4DE004AB6BB /* Lottie.framework */; };
 		91DAF70920BBD4DE004AB6BB /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91DAF70720BBD4DE004AB6BB /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		91DAF70C20BBD73E004AB6BB /* gdTrainSummer.json in Resources */ = {isa = PBXBuildFile; fileRef = 91DAF70B20BBD73E004AB6BB /* gdTrainSummer.json */; };
-		91DAF70F20BBDB45004AB6BB /* gdTrainSummer2.json in Resources */ = {isa = PBXBuildFile; fileRef = 91DAF70E20BBDB44004AB6BB /* gdTrainSummer2.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +68,6 @@
 		91DAF70720BBD4DE004AB6BB /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
 		91DAF70B20BBD73E004AB6BB /* gdTrainSummer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = gdTrainSummer.json; path = ../gdTrainSummer.json; sourceTree = "<group>"; };
 		91DAF70D20BBD744004AB6BB /* gdTrainSummer.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gdTrainSummer.json; sourceTree = "<group>"; };
-		91DAF70E20BBDB44004AB6BB /* gdTrainSummer2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = gdTrainSummer2.json; path = ../../../gdTrainSummer2.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				91DAF70B20BBD73E004AB6BB /* gdTrainSummer.json */,
-				91DAF70E20BBDB44004AB6BB /* gdTrainSummer2.json */,
 				91DAF70320BBD30D004AB6BB /* Lottie.framework */,
 				91DAF70720BBD4DE004AB6BB /* Lottie.framework */,
 				91DAF6D420BBD25C004AB6BB /* SummerProject'18 */,
@@ -263,7 +260,6 @@
 				91DAF6E020BBD25E004AB6BB /* LaunchScreen.storyboard in Resources */,
 				91DAF6DD20BBD25E004AB6BB /* Assets.xcassets in Resources */,
 				91DAF6DB20BBD25C004AB6BB /* Main.storyboard in Resources */,
-				91DAF70F20BBDB45004AB6BB /* gdTrainSummer2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

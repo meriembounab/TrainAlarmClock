@@ -11,7 +11,7 @@ import Lottie
 
 class ViewController: UIViewController {
 
-    let animationView = LOTAnimationView(name:"gdTrainSummer2")
+    let animationView = LOTAnimationView(name:"gdTrainSummer")
     
     override func viewDidLoad() {
         super.viewDidLoad()
