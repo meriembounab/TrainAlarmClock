@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     //let animationView = LOTAnimationView(name:"gdTrainSummer")
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+        //super.viewDidLoad()
         let filePath = Bundle.main.path(forResource: "chivideo", ofType: "gif")
         let gif = NSData(contentsOfFile: (filePath)!)
         let webViewBG = UIWebView(frame: self.view.frame)
