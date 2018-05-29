@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91084E4F20BDCE2300395F24 /* chivideo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 91084E4E20BDCE2300395F24 /* chivideo.gif */; };
 		91DAF6D620BBD25C004AB6BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DAF6D520BBD25C004AB6BB /* AppDelegate.swift */; };
 		91DAF6D820BBD25C004AB6BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DAF6D720BBD25C004AB6BB /* ViewController.swift */; };
 		91DAF6DB20BBD25C004AB6BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91DAF6D920BBD25C004AB6BB /* Main.storyboard */; };
@@ -51,6 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		91084E4E20BDCE2300395F24 /* chivideo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = chivideo.gif; path = ../../../../Downloads/chivideo.gif; sourceTree = "<group>"; };
 		91DAF6D220BBD25C004AB6BB /* SummerProject'18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SummerProject'18.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DAF6D520BBD25C004AB6BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91DAF6D720BBD25C004AB6BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				91DAF70B20BBD73E004AB6BB /* gdTrainSummer.json */,
+				91084E4E20BDCE2300395F24 /* chivideo.gif */,
 				91DAF70320BBD30D004AB6BB /* Lottie.framework */,
 				91DAF70720BBD4DE004AB6BB /* Lottie.framework */,
 				91DAF6D420BBD25C004AB6BB /* SummerProject'18 */,
@@ -258,6 +261,7 @@
 			files = (
 				91DAF70C20BBD73E004AB6BB /* gdTrainSummer.json in Resources */,
 				91DAF6E020BBD25E004AB6BB /* LaunchScreen.storyboard in Resources */,
+				91084E4F20BDCE2300395F24 /* chivideo.gif in Resources */,
 				91DAF6DD20BBD25E004AB6BB /* Assets.xcassets in Resources */,
 				91DAF6DB20BBD25C004AB6BB /* Main.storyboard in Resources */,
 			);

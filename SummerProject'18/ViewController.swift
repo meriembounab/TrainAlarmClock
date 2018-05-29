@@ -11,19 +11,26 @@ import Lottie
 
 class ViewController: UIViewController {
 
-    let animationView = LOTAnimationView(name:"gdTrainSummer")
+    //let animationView = LOTAnimationView(name:"gdTrainSummer")
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let filePath = Bundle.main.path(forResource: "chivideo", ofType: "gif")
+        let gif = NSData(contentsOfFile: (filePath)!)
+        let webViewBG = UIWebView(frame: self.view.frame)
+        webViewBG.load(gif! as Data, mimeType: "image/gif", textEncodingName: "UTF-8", baseURL: NSURL(string: "")! as URL)
+        webViewBG.isUserInteractionEnabled = false
+        webViewBG.layer.zPosition = -2.0
+        self.view.addSubview(webViewBG)
         
-        animationView.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width , height: 667)
+       /* animationView.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width , height: 667)
         animationView.contentMode = .scaleAspectFill
         
         animationView.loopAnimation = true
         
         self.view.addSubview(animationView)
         
-        animationView.play()
+        animationView.play()*/
         
         // Do any additional setup after loading the view, typically from a nib.
     }
