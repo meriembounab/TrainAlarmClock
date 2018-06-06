@@ -10,7 +10,7 @@ import UIKit
 import Lottie
 
 class ViewController: UIViewController {
-
+    
     let animationView = LOTAnimationView(name:"newHomeScreen3")
     
     override func viewDidLoad() {
@@ -24,23 +24,23 @@ class ViewController: UIViewController {
         
         animationView.play()
         /*let filePath = Bundle.main.path(forResource: "chivideo", ofType: "gif")
-        let gif = NSData(contentsOfFile: (filePath)!)
-        let webViewBG = UIWebView(frame: self.view.frame)
-        webViewBG.load(gif! as Data, mimeType: "image/gif", textEncodingName: "UTF-8", baseURL: NSURL(string: "")! as URL)
-        webViewBG.isUserInteractionEnabled = false
-        webViewBG.layer.zPosition = -2.0
-        self.view.addSubview(webViewBG)
-        */
-      
+         let gif = NSData(contentsOfFile: (filePath)!)
+         let webViewBG = UIWebView(frame: self.view.frame)
+         webViewBG.load(gif! as Data, mimeType: "image/gif", textEncodingName: "UTF-8", baseURL: NSURL(string: "")! as URL)
+         webViewBG.isUserInteractionEnabled = false
+         webViewBG.layer.zPosition = -2.0
+         self.view.addSubview(webViewBG)
+         */
+        
         
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
 

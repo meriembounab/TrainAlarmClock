@@ -7,20 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		91084E4F20BDCE2300395F24 /* chivideo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 91084E4E20BDCE2300395F24 /* chivideo.gif */; };
-		91693C3020C73C0F00F60D92 /* newHomeScreen.json in Resources */ = {isa = PBXBuildFile; fileRef = 91693C2F20C73C0F00F60D92 /* newHomeScreen.json */; };
-		91693C3820C75C2C00F60D92 /* newHomeScreen2.json in Resources */ = {isa = PBXBuildFile; fileRef = 91693C3720C75C2C00F60D92 /* newHomeScreen2.json */; };
-		91693C3A20C75C6B00F60D92 /* newHomeScreen3.json in Resources */ = {isa = PBXBuildFile; fileRef = 91693C3920C75C6B00F60D92 /* newHomeScreen3.json */; };
+		91693C3D20C7953100F60D92 /* ChooseLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91693C3C20C7953100F60D92 /* ChooseLine.swift */; };
+		91693C3F20C795CF00F60D92 /* border1.json in Resources */ = {isa = PBXBuildFile; fileRef = 91693C3E20C795CF00F60D92 /* border1.json */; };
+		91693C4020C7971100F60D92 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DAF70320BBD30D004AB6BB /* Lottie.framework */; };
+		91693C4120C7971100F60D92 /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91DAF70320BBD30D004AB6BB /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		91693C4320C798F400F60D92 /* newHomeScreen3.json in Resources */ = {isa = PBXBuildFile; fileRef = 91693C4220C798F400F60D92 /* newHomeScreen3.json */; };
 		91DAF6D620BBD25C004AB6BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DAF6D520BBD25C004AB6BB /* AppDelegate.swift */; };
 		91DAF6D820BBD25C004AB6BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DAF6D720BBD25C004AB6BB /* ViewController.swift */; };
 		91DAF6DB20BBD25C004AB6BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91DAF6D920BBD25C004AB6BB /* Main.storyboard */; };
 		91DAF6DD20BBD25E004AB6BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91DAF6DC20BBD25E004AB6BB /* Assets.xcassets */; };
 		91DAF6E020BBD25E004AB6BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91DAF6DE20BBD25E004AB6BB /* LaunchScreen.storyboard */; };
-		91DAF6EB20BBD25E004AB6BB /* SummerProject_18Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DAF6EA20BBD25E004AB6BB /* SummerProject_18Tests.swift */; };
-		91DAF6F620BBD25E004AB6BB /* SummerProject_18UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DAF6F520BBD25E004AB6BB /* SummerProject_18UITests.swift */; };
-		91DAF70820BBD4DE004AB6BB /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DAF70720BBD4DE004AB6BB /* Lottie.framework */; };
-		91DAF70920BBD4DE004AB6BB /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91DAF70720BBD4DE004AB6BB /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		91DAF70C20BBD73E004AB6BB /* gdTrainSummer.json in Resources */ = {isa = PBXBuildFile; fileRef = 91DAF70B20BBD73E004AB6BB /* gdTrainSummer.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +43,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				91DAF70920BBD4DE004AB6BB /* Lottie.framework in Embed Frameworks */,
+				91693C4120C7971100F60D92 /* Lottie.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,10 +51,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		91084E4E20BDCE2300395F24 /* chivideo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = chivideo.gif; path = ../../../../Downloads/chivideo.gif; sourceTree = "<group>"; };
-		91693C2F20C73C0F00F60D92 /* newHomeScreen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = newHomeScreen.json; path = ../../../../Desktop/newHomeScreen.json; sourceTree = "<group>"; };
-		91693C3720C75C2C00F60D92 /* newHomeScreen2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = newHomeScreen2.json; path = ../../../../Desktop/newHomeScreen2.json; sourceTree = "<group>"; };
-		91693C3920C75C6B00F60D92 /* newHomeScreen3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = newHomeScreen3.json; path = ../../../../Desktop/newHomeScreen3.json; sourceTree = "<group>"; };
+		91693C3B20C792A700F60D92 /* newHomeScreen3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = newHomeScreen3.json; sourceTree = "<group>"; };
+		91693C3C20C7953100F60D92 /* ChooseLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseLine.swift; sourceTree = "<group>"; };
+		91693C3E20C795CF00F60D92 /* border1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = border1.json; path = ../../border1.json; sourceTree = "<group>"; };
+		91693C4220C798F400F60D92 /* newHomeScreen3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = newHomeScreen3.json; sourceTree = SOURCE_ROOT; };
+		91693C4420C79A9E00F60D92 /* border1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = border1.json; sourceTree = "<group>"; };
 		91DAF6D220BBD25C004AB6BB /* SummerProject'18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SummerProject'18.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DAF6D520BBD25C004AB6BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91DAF6D720BBD25C004AB6BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,15 +64,8 @@
 		91DAF6DF20BBD25E004AB6BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91DAF6E120BBD25E004AB6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91DAF6E620BBD25E004AB6BB /* SummerProject'18Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SummerProject'18Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		91DAF6EA20BBD25E004AB6BB /* SummerProject_18Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerProject_18Tests.swift; sourceTree = "<group>"; };
-		91DAF6EC20BBD25E004AB6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91DAF6F120BBD25E004AB6BB /* SummerProject'18UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SummerProject'18UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		91DAF6F520BBD25E004AB6BB /* SummerProject_18UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerProject_18UITests.swift; sourceTree = "<group>"; };
-		91DAF6F720BBD25E004AB6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91DAF70320BBD30D004AB6BB /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = ../../demoLogo/demo/Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
-		91DAF70720BBD4DE004AB6BB /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
-		91DAF70B20BBD73E004AB6BB /* gdTrainSummer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = gdTrainSummer.json; path = ../gdTrainSummer.json; sourceTree = "<group>"; };
-		91DAF70D20BBD744004AB6BB /* gdTrainSummer.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gdTrainSummer.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91DAF70820BBD4DE004AB6BB /* Lottie.framework in Frameworks */,
+				91693C4020C7971100F60D92 /* Lottie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,16 +97,10 @@
 		91DAF6C920BBD25C004AB6BB = {
 			isa = PBXGroup;
 			children = (
-				91DAF70B20BBD73E004AB6BB /* gdTrainSummer.json */,
-				91693C2F20C73C0F00F60D92 /* newHomeScreen.json */,
-				91693C3720C75C2C00F60D92 /* newHomeScreen2.json */,
-				91693C3920C75C6B00F60D92 /* newHomeScreen3.json */,
-				91084E4E20BDCE2300395F24 /* chivideo.gif */,
+				91693C3B20C792A700F60D92 /* newHomeScreen3.json */,
+				91693C4420C79A9E00F60D92 /* border1.json */,
 				91DAF70320BBD30D004AB6BB /* Lottie.framework */,
-				91DAF70720BBD4DE004AB6BB /* Lottie.framework */,
 				91DAF6D420BBD25C004AB6BB /* SummerProject'18 */,
-				91DAF6E920BBD25E004AB6BB /* SummerProject'18Tests */,
-				91DAF6F420BBD25E004AB6BB /* SummerProject'18UITests */,
 				91DAF6D320BBD25C004AB6BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -134,8 +118,10 @@
 		91DAF6D420BBD25C004AB6BB /* SummerProject'18 */ = {
 			isa = PBXGroup;
 			children = (
-				91DAF70D20BBD744004AB6BB /* gdTrainSummer.json */,
+				91693C3E20C795CF00F60D92 /* border1.json */,
+				91693C4220C798F400F60D92 /* newHomeScreen3.json */,
 				91DAF6D520BBD25C004AB6BB /* AppDelegate.swift */,
+				91693C3C20C7953100F60D92 /* ChooseLine.swift */,
 				91DAF6D720BBD25C004AB6BB /* ViewController.swift */,
 				91DAF6D920BBD25C004AB6BB /* Main.storyboard */,
 				91DAF6DC20BBD25E004AB6BB /* Assets.xcassets */,
@@ -143,24 +129,6 @@
 				91DAF6E120BBD25E004AB6BB /* Info.plist */,
 			);
 			path = "SummerProject'18";
-			sourceTree = "<group>";
-		};
-		91DAF6E920BBD25E004AB6BB /* SummerProject'18Tests */ = {
-			isa = PBXGroup;
-			children = (
-				91DAF6EA20BBD25E004AB6BB /* SummerProject_18Tests.swift */,
-				91DAF6EC20BBD25E004AB6BB /* Info.plist */,
-			);
-			path = "SummerProject'18Tests";
-			sourceTree = "<group>";
-		};
-		91DAF6F420BBD25E004AB6BB /* SummerProject'18UITests */ = {
-			isa = PBXGroup;
-			children = (
-				91DAF6F520BBD25E004AB6BB /* SummerProject_18UITests.swift */,
-				91DAF6F720BBD25E004AB6BB /* Info.plist */,
-			);
-			path = "SummerProject'18UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,14 +236,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91DAF70C20BBD73E004AB6BB /* gdTrainSummer.json in Resources */,
-				91693C3A20C75C6B00F60D92 /* newHomeScreen3.json in Resources */,
-				91693C3020C73C0F00F60D92 /* newHomeScreen.json in Resources */,
 				91DAF6E020BBD25E004AB6BB /* LaunchScreen.storyboard in Resources */,
-				91084E4F20BDCE2300395F24 /* chivideo.gif in Resources */,
 				91DAF6DD20BBD25E004AB6BB /* Assets.xcassets in Resources */,
 				91DAF6DB20BBD25C004AB6BB /* Main.storyboard in Resources */,
-				91693C3820C75C2C00F60D92 /* newHomeScreen2.json in Resources */,
+				91693C4320C798F400F60D92 /* newHomeScreen3.json in Resources */,
+				91693C3F20C795CF00F60D92 /* border1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +267,7 @@
 			files = (
 				91DAF6D820BBD25C004AB6BB /* ViewController.swift in Sources */,
 				91DAF6D620BBD25C004AB6BB /* AppDelegate.swift in Sources */,
+				91693C3D20C7953100F60D92 /* ChooseLine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91DAF6EB20BBD25E004AB6BB /* SummerProject_18Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +282,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91DAF6F620BBD25E004AB6BB /* SummerProject_18UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
