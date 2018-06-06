@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		91084E4F20BDCE2300395F24 /* chivideo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 91084E4E20BDCE2300395F24 /* chivideo.gif */; };
+		91693C3020C73C0F00F60D92 /* newHomeScreen.json in Resources */ = {isa = PBXBuildFile; fileRef = 91693C2F20C73C0F00F60D92 /* newHomeScreen.json */; };
+		91693C3820C75C2C00F60D92 /* newHomeScreen2.json in Resources */ = {isa = PBXBuildFile; fileRef = 91693C3720C75C2C00F60D92 /* newHomeScreen2.json */; };
+		91693C3A20C75C6B00F60D92 /* newHomeScreen3.json in Resources */ = {isa = PBXBuildFile; fileRef = 91693C3920C75C6B00F60D92 /* newHomeScreen3.json */; };
 		91DAF6D620BBD25C004AB6BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DAF6D520BBD25C004AB6BB /* AppDelegate.swift */; };
 		91DAF6D820BBD25C004AB6BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DAF6D720BBD25C004AB6BB /* ViewController.swift */; };
 		91DAF6DB20BBD25C004AB6BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91DAF6D920BBD25C004AB6BB /* Main.storyboard */; };
@@ -53,6 +56,9 @@
 
 /* Begin PBXFileReference section */
 		91084E4E20BDCE2300395F24 /* chivideo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = chivideo.gif; path = ../../../../Downloads/chivideo.gif; sourceTree = "<group>"; };
+		91693C2F20C73C0F00F60D92 /* newHomeScreen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = newHomeScreen.json; path = ../../../../Desktop/newHomeScreen.json; sourceTree = "<group>"; };
+		91693C3720C75C2C00F60D92 /* newHomeScreen2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = newHomeScreen2.json; path = ../../../../Desktop/newHomeScreen2.json; sourceTree = "<group>"; };
+		91693C3920C75C6B00F60D92 /* newHomeScreen3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = newHomeScreen3.json; path = ../../../../Desktop/newHomeScreen3.json; sourceTree = "<group>"; };
 		91DAF6D220BBD25C004AB6BB /* SummerProject'18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SummerProject'18.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DAF6D520BBD25C004AB6BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91DAF6D720BBD25C004AB6BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				91DAF70B20BBD73E004AB6BB /* gdTrainSummer.json */,
+				91693C2F20C73C0F00F60D92 /* newHomeScreen.json */,
+				91693C3720C75C2C00F60D92 /* newHomeScreen2.json */,
+				91693C3920C75C6B00F60D92 /* newHomeScreen3.json */,
 				91084E4E20BDCE2300395F24 /* chivideo.gif */,
 				91DAF70320BBD30D004AB6BB /* Lottie.framework */,
 				91DAF70720BBD4DE004AB6BB /* Lottie.framework */,
@@ -260,10 +269,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				91DAF70C20BBD73E004AB6BB /* gdTrainSummer.json in Resources */,
+				91693C3A20C75C6B00F60D92 /* newHomeScreen3.json in Resources */,
+				91693C3020C73C0F00F60D92 /* newHomeScreen.json in Resources */,
 				91DAF6E020BBD25E004AB6BB /* LaunchScreen.storyboard in Resources */,
 				91084E4F20BDCE2300395F24 /* chivideo.gif in Resources */,
 				91DAF6DD20BBD25E004AB6BB /* Assets.xcassets in Resources */,
 				91DAF6DB20BBD25C004AB6BB /* Main.storyboard in Resources */,
+				91693C3820C75C2C00F60D92 /* newHomeScreen2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
