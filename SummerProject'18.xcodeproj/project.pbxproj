@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		912CFB3920CD8D650097926A /* ChooseDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912CFB3820CD8D650097926A /* ChooseDestination.swift */; };
 		91693C3D20C7953100F60D92 /* ChooseLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91693C3C20C7953100F60D92 /* ChooseLine.swift */; };
 		91693C3F20C795CF00F60D92 /* border1.json in Resources */ = {isa = PBXBuildFile; fileRef = 91693C3E20C795CF00F60D92 /* border1.json */; };
 		91693C4020C7971100F60D92 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DAF70320BBD30D004AB6BB /* Lottie.framework */; };
@@ -51,6 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		912CFB3820CD8D650097926A /* ChooseDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseDestination.swift; sourceTree = "<group>"; };
 		91693C3B20C792A700F60D92 /* newHomeScreen3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = newHomeScreen3.json; sourceTree = "<group>"; };
 		91693C3C20C7953100F60D92 /* ChooseLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseLine.swift; sourceTree = "<group>"; };
 		91693C3E20C795CF00F60D92 /* border1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = border1.json; path = ../../border1.json; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				91693C4220C798F400F60D92 /* newHomeScreen3.json */,
 				91DAF6D520BBD25C004AB6BB /* AppDelegate.swift */,
 				91693C3C20C7953100F60D92 /* ChooseLine.swift */,
+				912CFB3820CD8D650097926A /* ChooseDestination.swift */,
 				91DAF6D720BBD25C004AB6BB /* ViewController.swift */,
 				91DAF6D920BBD25C004AB6BB /* Main.storyboard */,
 				91DAF6DC20BBD25E004AB6BB /* Assets.xcassets */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91DAF6D820BBD25C004AB6BB /* ViewController.swift in Sources */,
+				912CFB3920CD8D650097926A /* ChooseDestination.swift in Sources */,
 				91DAF6D620BBD25C004AB6BB /* AppDelegate.swift in Sources */,
 				91693C3D20C7953100F60D92 /* ChooseLine.swift in Sources */,
 			);
