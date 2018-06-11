@@ -9,9 +9,15 @@ import Lottie
 
 class ChooseLine: UIViewController,UIPickerViewDelegate, UIPickerViewDataSource
 {
+  
+    @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var pickerview: UIPickerView!
     @IBOutlet weak var pickerlabel: UILabel!
-    let trainLines = ["Union Pacific North" , "Milwaukee North" , "North Central Service" , "Union Pacific Northwest" , "Milwaukee West" , "Union Pacific West" , "BNSF Railway" , "Heritage Corridor" , "SouthWest Service" , "Rock Island District" , "Metra Electric District"]
+    
+    var text:String = ""
+    
+    
+    let trainLines = ["--Select Track--" , "Union Pacific North (UP-N)" , "Milwaukee District North (MD-N)" , "North Central Service (NCS)" , "Union Pacific Northwest (UP-NW)" , "Milwaukee West" , "Union Pacific West (UP-W)" , "BNSF Railway" , "Heritage Corridor" , "SouthWest Service" , "Rock Island District" , "Metra Electric District"]
     let animationView = LOTAnimationView(name:"border1")
     override func viewDidLoad()
     {
@@ -28,6 +34,8 @@ class ChooseLine: UIViewController,UIPickerViewDelegate, UIPickerViewDataSource
         pickerview.dataSource = self
         pickerview.delegate = self
         
+        nextButton.isHidden = true
+        
     }
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
@@ -41,6 +49,12 @@ class ChooseLine: UIViewController,UIPickerViewDelegate, UIPickerViewDataSource
     }
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         pickerlabel.text = trainLines[row]
+        if(pickerlabel.text != "--Select Track--"){
+            nextButton.isHidden = false
+        }
+        
+        text = trainLines[row]
+        //print(text)
     }
    
     
@@ -49,6 +63,11 @@ class ChooseLine: UIViewController,UIPickerViewDelegate, UIPickerViewDataSource
         super.didReceiveMemoryWarning()
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+            let vc = segue.destination as? ChooseDestination
+            vc?.username = pickerlabel.text!
+    }
     
     
 }
