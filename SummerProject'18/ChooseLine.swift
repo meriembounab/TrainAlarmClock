@@ -17,7 +17,7 @@ class ChooseLine: UIViewController,UIPickerViewDelegate, UIPickerViewDataSource
     var text:String = ""
     
     
-    let trainLines = ["--Select Track--" , "Union Pacific North (UP-N)" , "Milwaukee District North (MD-N)" , "North Central Service (NCS)" , "Union Pacific Northwest (UP-NW)" , "Milwaukee West" , "Union Pacific West (UP-W)" , "BNSF Railway" , "Heritage Corridor" , "SouthWest Service" , "Rock Island District" , "Metra Electric District"]
+    let trainLines = ["--Select Track--" , "Union Pacific North (UP-N)" , "Milwaukee District North (MD-N)" , "North Central Service (NCS)" , "Union Pacific Northwest (UP-NW)" , "Milwaukee District West (MD-W)" , "Union Pacific West (UP-W)" , "BNSF Railway (BNSF)" , "Heritage Corridor (HC)" , "SouthWest Service (SWS)" , "Rock Island District (RI)" , "Metra Electric District (ME)"]
     let animationView = LOTAnimationView(name:"border1")
     override func viewDidLoad()
     {
@@ -51,6 +51,9 @@ class ChooseLine: UIViewController,UIPickerViewDelegate, UIPickerViewDataSource
         pickerlabel.text = trainLines[row]
         if(pickerlabel.text != "--Select Track--"){
             nextButton.isHidden = false
+        }
+        else{
+            nextButton.isHidden = true
         }
         
         text = trainLines[row]
