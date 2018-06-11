@@ -100,6 +100,7 @@ class ChooseDestination:UIViewController, UIPickerViewDataSource, UIPickerViewDe
         }
         else{
             nextButton.isHidden = true
+            pickerlabel.text = "None"
         }
     }
     

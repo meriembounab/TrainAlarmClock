@@ -54,6 +54,7 @@ class ChooseLine: UIViewController,UIPickerViewDelegate, UIPickerViewDataSource
         }
         else{
             nextButton.isHidden = true
+            pickerlabel.text = "None"
         }
         
         text = trainLines[row]
